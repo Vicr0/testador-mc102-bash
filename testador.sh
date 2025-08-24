@@ -19,9 +19,6 @@ for i in "${!arqin[@]}"; do
 	
 	saida=$(python3 "$arqpy" < "$entrada")
 	
-	saida_sem_espaco=$(echo "$saida" | sed 's/[[:space:]]*$//')
-	esperado=$(cat "$saida_lgl" | sed 's/[[:space:]]*$//')
-	
 	
 	if [[ "$saida_sem_espaco" == "$esperado" ]]; then
 		echo " "
