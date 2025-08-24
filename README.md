@@ -5,5 +5,10 @@ Este projeto que fiz é baseado no testador já disponível no [site](https://ic
 ## Como funciona
 Para executar este programa, você precisa ter seu código Python, os arquivos de entrada (`.in`) e saída (`.out`) disponibilizados pelo SuSy na aba *Arquivos auxiliares*, e o próprio `testador.sh` na mesma pasta. Depois, abra o terminal nessa pasta e execute o comando `bash testador.sh`. Em seguida, basta conferir o resultado.
 
+## Bug Report
+As linhas 22 e 23 do código podem gerar falsos positivos, pois elas removem os espaços presentes tanto na entrada quanto na saída. É necessário corrigir isso.
+
+## Fix
+
 ## Considerações
 Esta é a primeira vez que faço um programa em Bash e realmente me diverti mexendo com essa linguagem. Apesar de me perder um pouco com a quantidade de notações, achei muito legal a facilidade de manipular arquivos com ela, pretendo usar em projetos futuros.
